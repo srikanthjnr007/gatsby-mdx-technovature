@@ -1,0 +1,18 @@
+{
+  "title": "About",
+  "content": "intro.txt",
+  "gallery": [
+   {
+    "name": "Srikanth Jallapuram",
+    "title": "Founder & CEO",
+    "path": "ai",
+    "image": "../images/about/img1.jpg"
+  },
+  {
+    "name": "Kalyani Jallapuram",
+    "title": "Director of Operations",
+    "path": "bigdata",
+    "image": "../images/about/img2.jpg"
+  }
+    ]
+}

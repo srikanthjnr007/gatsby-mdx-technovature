@@ -1,0 +1,61 @@
+{
+  "title": "Services",
+  "content": "intro.txt",
+  "gallery": [{
+    "title": "Artificial Intelligence",
+    "copy": "AI powered Everything",
+    "path": "ai",
+    "description": "ai",
+    "image": "../images/gallery/ai.jpg"
+  },
+  {
+    "title": "Big Data",
+    "copy": "Data Intelligence and Analytics ",
+    "path": "bigdata",
+    "description": "ai",
+    "image": "../images/gallery/bigdata.jpg"
+  },
+  {
+    "title": "Cloud Computing",
+    "copy": "Hybrid and Multi Cloud Strategies",
+    "path": "cloud",
+    "description": "ai",
+    "image": "../images/gallery/cloud.jpg"
+  },
+  {
+    "title": "Internet of Things",
+    "copy": "Internet powered Intelligence on every device.",
+    "path": "iot",
+    "description": "ai",
+    "image": "../images/gallery/iot.jpeg" 
+  },
+   {
+    "title": "Blockchain",
+    "copy": "A New Computing Paradigm",
+     "path": "blockchain",
+    "description": "ai",
+    "image": "../images/gallery/blockchain.jpg"
+  },
+  {
+    "title": "Banking & Fintech", 
+    "copy": "Disrupting Money",
+    "path": "fintech",
+    "description": "ai",
+    "image": "../images/gallery/fintech.jpg"
+  },
+  {
+    "title": "Autonomous Vehicles",
+    "copy": "Intelligence powered Mobility.",
+    "path": "autonomous",
+    "description": "ai",
+    "image": "../images/gallery/autonomous.jpg"
+  },
+  {
+    "title": "5G Services",
+    "copy": "Steroid Powered Digital Experiences.",
+    "path": "5G",
+    "description": "ai",
+    "image": "../images/gallery/5g.jpg"
+  }
+    ]
+}
