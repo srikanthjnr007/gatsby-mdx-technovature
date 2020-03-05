@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
 
-    title: `Technovature Software`,
-    author: `Srikanth Jallapuram`,
+    title: `Apple Software`,
+    author: `Steve Jobs`,
     description: `High Technology Digital and Software Development company in Mobile, cloud, Big Data, Internet of Things, IoT, Data Sciences, Artificial Intelligence and Software Automation`,
-    siteUrl: `http://www.technovature.com`,
+    siteUrl: `http://www.apple-dui.com`,
     social: {
-      twitter: `technovature`,
+      twitter: `apple-2`,
       fbAppId: ' ',
     },
   },
