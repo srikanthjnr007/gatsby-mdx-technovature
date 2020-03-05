@@ -3,13 +3,13 @@
   "content": "intro.txt",
   "gallery": [
    {
-    "name": "Srikanth Jallapuram",
+    "name": "John Doe",
     "title": "Founder & CEO",
     "path": "ai",
     "image": "../images/about/img1.jpg"
   },
   {
-    "name": "Kalyani Jallapuram",
+    "name": "Jane Doe", 
     "title": "Director of Operations",
     "path": "bigdata",
     "image": "../images/about/img2.jpg"
