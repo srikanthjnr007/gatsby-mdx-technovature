@@ -7,7 +7,7 @@ import { Title, Copy } from './item.css';
 const Item = ({ title, copy, path, image }) => (
   <figure>
   <Link to={`/${path}/`} style={{ textDecoration: 'none' }}>
-    <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
+    <Img fixed={image ? image.childImageSharp.fixed : {}} alt={title} />
   </Link>
     <figcaption>
       <Title>{title}</Title>

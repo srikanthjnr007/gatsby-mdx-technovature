@@ -38,8 +38,8 @@ export const query = graphql`
         path
         image {
           childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
+            fixed(height: 180, width: 270, quality: 100) {
+              ...GatsbyImageSharpFixed
             }
           }
         }
