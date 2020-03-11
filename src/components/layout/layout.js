@@ -24,7 +24,7 @@ const Layout = ({ data, children }) => (
         <main className="main">{children}</main>
 	</div> 
         <footer>
-          © {new Date().getFullYear()}, Apple Tech Solutions Pvt. Ltd. 
+          © {new Date().getFullYear()}, Technovature Software Solutions Pvt. Ltd. 
         </footer>
 	</div>
 	</>
