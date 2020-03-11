@@ -4,19 +4,19 @@
   "gallery": [{
     "title": "Artificial Intelligence",
     "copy": "AI powered Everything",
-    "path": "ai",
+    "path": "/services/ai",
     "image": "../images/gallery/ai.jpg"
   },
   {
     "title": "Big Data",
     "copy": "Data Intelligence and Analytics ",
-    "path": "bigdata",
+    "path": "/services/bigdata",
     "image": "../images/gallery/bigdata.jpg"
   },
   {
     "title": "Cloud Computing",
     "copy": "Hybrid and Multi Cloud Strategies",
-    "path": "cloud",
+    "path": "/services/cloud",
     "image": "../images/gallery/cloud.jpg"
   },
   {
@@ -28,13 +28,13 @@
    {
     "title": "Blockchain",
     "copy": "A New Computing Paradigm",
-     "path": "blockchain",
+     "path": "/services/blockchain",
     "image": "../images/gallery/blockchain.jpg"
   },
   {
     "title": "Banking & Fintech", 
     "copy": "Disrupting Money",
-    "path": "fintech",
+    "path": "/services/fintech",
     "image": "../images/gallery/fintech.jpg"
   },
   {
