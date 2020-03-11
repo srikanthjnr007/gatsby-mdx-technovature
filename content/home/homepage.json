@@ -20,10 +20,10 @@
     "image": "../images/gallery/cloud.jpg"
   },
   {
-    "title": "Internet of Things",
-    "copy": "Internet powered Intelligence on every device.",
-    "path": "iot",
-    "image": "../images/gallery/iot.jpeg" 
+    "title": "Mobile Technology",
+    "copy": "Mobile Applications and Mobile Technology.",
+    "path": "/services/mobile",
+    "image": "../images/gallery/mobile.jpg" 
   },
    {
     "title": "Blockchain",
