@@ -40,13 +40,13 @@
   {
     "title": "Autonomous Vehicles",
     "copy": "Intelligence powered Mobility.",
-    "path": "autonomous",
+    "path": "/services/autonomous",
     "image": "../images/gallery/autonomous.jpg"
   },
   {
     "title": "5G Services",
     "copy": "Steroid Powered Digital Experiences.",
-    "path": "5G",
+    "path": "/services/5g",
     "image": "../images/gallery/5g.jpg"
   }
     ]
