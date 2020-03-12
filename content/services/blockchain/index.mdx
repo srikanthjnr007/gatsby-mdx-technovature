@@ -160,53 +160,37 @@ Six principles for blockchain development and implementation
 
 ## What are the best practices in building a Blockchain Solution?
 
-### Build a service that never sleeps
+The greatest promises of blockchain technology is Its strength as a platform to build new generations of transactional applications that will allow users to establish trust and maintain high security for their data and processes. 
 
-Chatbots offer a number of comparative advantages. They offer 24/7 availability, where a fully dedicated resource is providing you the desired service with unmatched control and transparency. They offer instant customer service and enhance brand value. Above all, since they are intelligent, bots can be scaled up quickly allowing you to focus on important tasks instead of being part of every conversation.
+### Secure today does not mean secure tomorrow
 
-### Empower the convenient intelligence
+When people hear about blockchain, one of the things they learn about is that it is secure and cryptographically protected. With that information, they then often think they shouldn’t have concerns about using blockchain along with personally identifiable information (PII). The problem is that such an assumption fails to consider the future because as soon as hackers and other bad actors eventually break the cryptographic algorithms that protect such blockchain data today, then all that data will become a treasure trove for criminals. Regardless, developing technologies such as quantum computing could one day make successful attacks on the security of cryptographic keys possible.
 
-Using the deep learning powers, you can train chatbots to behave more like a human and deliver interactions in different languages of your choice. You can improve  customer retention rate by providing a highly customized and personalized experience to each user. Their ability to deliver a cognitive digital experience and manage multiple interactions with natural interface makes them a very cost-effective option for customer support, e-commerce sales, information retrieval, help-desk and many more such cases.
+### Never store large files on a blockchain
 
-Some other key benefits to be drawn from building and deploying bots in our organization are as below:
+Blockchains work by using large numbers of computers that are basically replicating data. So, when data is stored on the blockchain, it gets sent to every other node or peer on the blockchain network. When that happens, storage and compute costs can go up exponentially. To avoid those kinds of added costs, other means of storing and replicating that data should be used, including options such as the Amazon’s Simple Storage System (AWS S3), Google Cloud Platform’s Filestore or other cloud networks. That way, when users are storing big files, they are not paying extra to store, transfer and replicate multiple copies of the same data.
 
-- **They cut down Operational Costs** 💰
-  Per year there are a reported 265 Billion Customer Requests. Businesses spent nearly $1.3 trillion to service these requests. Using Chatbots can help you save up to 30% of this.
-- **Chatbots empowers your Team** 💪
-  Chatbots will not entirely replace humans. Rather they will become the first-level support that filters a customer request and save you time.
-- **They boost your Brand Outlook** 🙌
-  The visual interaction offers a friendly experience and ensures a healthy rapport with your customer base spread across the world.
-- **It's easier than making an App** 💁‍♀️
-  In the productivity category, chatbots outperform apps in all aspects of functionality and is more cost-effective.
-- **Millennials love Chatbots** 👫
-  The speed of communication and ease of use has given a sweet spot for chatbots in the Millennial audience compared to legacy tools.
+### If you don’t want your data to be public, use a permissioned blockchain
 
-### Conversational User Experience
+Not all blockchains are public, where anybody has access to the information and can add transactions and read the data that’s in it. When enterprises want to keep things private, that’s where permissioned blockchains come in – data can be stored, accessed and used only between the partners who need to have access. That’s the main reason such permissioned blockchains exist. While things like Bitcoin and Ethereum are public blockchains, the Hyperledger projects are mostly permissioned blockchains. And that’s exactly why they are suitable for business. If your data must remain private, then use a permissioned blockchain. Some people call them private blockchains or consortium blockchains, but those normally fall into the permissioned blockchain space.
 
-Conversational User Experience (CUX) will be adopted by most businesses in 2019. It is a newer version of UX design, and have features like guided conversations, brand persona development, and personalized content. Its main purpose is to help businesses to create rapid and helpful customer interactions on their chatbot. CUX is something to keep in mind, as any business that fails to keep up with CUX may risk their customer support.
+### Create a governance structure for the blockchain
 
+With blockchains, the challenges aren’t technical. Instead, the challenges involve the governance model that is chosen. To keep things working smoothly, it’s best to define the governance structure upfront and even before you dive into blockchain. For example, be sure to decide things like how new users or organizations will be added to a blockchain network, as well as how to determine if a user or organization should be cut out of the network. To protect the blockchain, the data and the rest, be sure to include a mechanism to deal with and remove bad actors who were previously allowed into the network. The governance structure can also address procedures for many other possible situations, as well as how to cope with the politics of the user group. Just remember, these things are still evolving, so those governance procedures will likely change over time.
 
-1. **Tokenization:** The NLP separates a series of words into tokens or pieces that are linguistically representative, with a different value in the application.
-2. **Sentiment Analysis:** It will study and learn the user's experience, and transfer the inquiry to a human when necessary
-3. **Normalization:** This program model processes the text to find out the typographical errors and common spelling mistakes that might alter the intended meaning of the user request.
-4. **Named Entity Recognition:** The program model of chatbot looks for different categories of words, similar to the name of the particular product, the user's address or name, whichever information is required.
-5. **Dependency Parsing:** The Chatbot searches for the subjects, verbs, objects, common phrases and nouns in the user's text to discover related phrases that what users want to convey.
+### Decide on performance and scalability requirements
 
+Different tasks may require different blockchains. As a best practice, architects must understand the requirements for their specific use cases and ensure that their blockchains meet those requirements, just like they would evaluate for any other technology. Certain technologies fit better with specific requirements, so architects must decide on their trade-offs. Are they okay giving up scalability for performance or are they okay giving up the performance to get needed scalability? Those are the kinds of decisions that need to be made early on with each deployment and use case. With the different Hyperledger frameworks, enterprises can set up their own blockchain networks as needed.
 
+### Analyze blockchain business cases early
 
-## **Blockchain Platform Evaluation**
+To ensure success for the project, IT leaders should ask themselves lots of detailed questions early in the process about their goals for a blockchain initiative.
 
-**Evaluation Perspectives**
+You need to analyze the business case and go through a checklist. Do multiple people need access to the data? Do you need an audit trail? Do you actually even need a blockchain? Does it make sense for us? For some projects, the use of a database can be the right choice. 
 
-There are a number of different perspectives on how to evaluate chatbot performance. From an information retrieval (IR) perspective, chatbots have specific functions: there are virtual assistants, question-answer and domain-specific bots.
+Enterprises should approach the project by designing and building a strategy that will help the project reach its goals, and not just aimlessly look to create a blockchain just to dive into the latest technology, he says. At the same time, enterprise IT leaders shouldn’t try to plan ahead for every feature and capability for their blockchains because some will become more apparent later and can be added as the project proceeds.
 
-Evaluators should ask questions and make requests of the chatbot, evaluating effectiveness by measuring accuracy, precision, recall, and F-score relative to the correct chatbot response.
-
- From a user experience perspective, the goal of the bot is, arguably, to maximize user satisfaction. Evaluators should survey users (typically, measured through questionnaires on platforms such as Amazon Mechanical Turk), who will rank bots based on usability and satisfaction. 
-
-From a linguistic perspective, bots should approximate speech, and be evaluated by linguistic experts on their ability to generate full, grammatical, and meaningful sentences. 
-
-Finally, from an artificial intelligence (AI) perspective, the bot that appears most convincingly human (e.g. passes the Turing Test best) is the most effective. 
+Blockchain can be a great choice for projects that rely on security, controlled access, accountability, transparency and efficiency in a wide range of fields, from finance to banking, supply chains, manufacturing and more. Having well laid plans, goals and best practices can all help enterprise IT leaders explore the growing blockchain ecosystem as they work to capture its strengths for their businesses.
 
 
-
+Reference: 'Six Blockchain Best Practices for Enterprises" by Hyperledger
