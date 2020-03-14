@@ -3,11 +3,10 @@ import MEDIA from '../../helpers/mediaTemplates.js';
 
 export const Container = styled.div`
   display: grid;
-  max-width: 100vw;
+  width: 80% ;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.2rem;
-  padding: 0 0.5rem;
-  margin: 0.5rem 0;
+  margin-left: -5%;
 
   ${MEDIA.TABLET`
     display: block;

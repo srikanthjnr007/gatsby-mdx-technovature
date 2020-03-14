@@ -56,6 +56,13 @@
     "path": "5G",
     "description": "ai",
     "image": "../images/gallery/5g.jpg"
+  },
+  {
+    "title": "Extended Reality",
+    "copy": "Beyond AR & VR",
+    "path": "xr",
+    "description": "Augmented and Extended Reality Development",
+    "image": "../images/gallery/xr.jpg"
   }
     ]
 }

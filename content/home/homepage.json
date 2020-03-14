@@ -48,6 +48,12 @@
     "copy": "Steroid Powered Digital Experiences.",
     "path": "/services/5g",
     "image": "../images/gallery/5g.jpg"
+  },
+  {
+    "title": "Xtended Reality",
+    "copy": "Beyond Augmented & Virtual Reality",
+    "path": "/services/xr",
+    "image": "../images/gallery/xr.jpg"
   }
     ]
 }

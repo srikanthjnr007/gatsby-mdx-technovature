@@ -15,10 +15,12 @@ body {
 .siteContainer {
   height: 100vh;
   display: flex;
+  width: 90%;
   flex-direction: column;
 }
 
 .siteContent {
+  width: 100vw;
   display: flex;
   flex-direction: column;
   flex: 1 0 auto;

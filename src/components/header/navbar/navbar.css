@@ -1,0 +1,90 @@
+/* Elements */
+li {
+    padding: 10px 0;
+}
+
+button1 {
+    font-size: 30px;
+    margin-right: 30px;
+    color: white;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    float: right;
+}
+
+/* Class */
+.navBar {
+    width: 100%;
+    display: block;
+    background-color: #111;
+    color: white;
+    padding: 10px;
+    height: auto;
+}
+    .leftnav {
+	    margin: 0 auto;
+	    background-color: #ffffff;
+    }
+
+    .leftnav .img {
+	    margin: 50%;
+    }
+
+.links {
+  height: 0;
+  overflow: hidden;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.show-nav {
+    height: auto;
+}
+
+/* Media screen size */
+@media screen and (min-width: 768px) {
+    button1 {
+        display: none;
+    }
+
+    .links {
+        height: auto;
+        display: flex;
+	font-size: 1.1rem;
+        font-family: montserrat, 'sans-serif';
+	text-transform: uppercase;
+    }
+
+    .navBar {
+	display: flex;
+	max-width: 90%;
+    	background-color: #ffffff;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	position: fixed;
+	z-index: 999;
+    }
+
+    .leftnav {
+  	flex-grow: 1; /* this is the important bit */
+	background-color: transparent;
+    }
+
+    a {
+	color: red;
+    }
+
+
+
+    li {
+        padding: 0 25px;
+    	transition: color 0.2s ease;
+    }
+
+    li:hover {
+	   color: blue; 
+    }
+}
