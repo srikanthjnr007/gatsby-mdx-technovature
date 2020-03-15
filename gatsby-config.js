@@ -4,7 +4,7 @@ module.exports = {
     title: `Technovature Software Solutions Pvt. Ltd.`,
     author: `Srikanth Jallapuram`,
     description: `High Technology Digital and Software Development company in Mobile, cloud, Big Data, Internet of Things, IoT, Data Sciences, Artificial Intelligence and Software Automation`,
-    siteUrl: `http://www.apple-dui.com`,
+    siteUrl: `https://www.technovature.com`,
     social: {
       twitter: `technovature`,
       fbAppId: ' ',
