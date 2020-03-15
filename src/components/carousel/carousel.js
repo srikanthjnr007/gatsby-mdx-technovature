@@ -3,9 +3,9 @@ import { Link } from 'gatsby';
 import Slider from 'react-animated-slider';
 import horizontalCss from 'react-animated-slider/build/horizontal.css';
 
-import Image1 from "./images/blockchain.jpg";
-import Image2 from "./images/ai.jpg";
-import Image3 from "./images/bigdata.jpg";
+import Image1 from "./images/webp/blockchain.webp";
+import Image2 from "./images/webp/ai.webp";
+import Image3 from "./images/webp/bigdata.webp";
 
 import "./carousel.css";
 
