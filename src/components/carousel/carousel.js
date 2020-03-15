@@ -17,7 +17,8 @@ const HomeSlider = () => (
 				<h1 style={{color:'#f5f0f0'}}>Blockchain Technology</h1>
 				<h4 style={{color:'#f5f0f0'}}>Explore Wide Applications </h4>
 				<Link to={`/services/blockchain/`} style={{ textDecoration: 'none' }}>
-				<button style={{color:'black', backgroundColor:'#FFFF33'}}>Learn More</button>
+				<button style={{color:'white', fontSize: '16px',
+						backgroundColor:'#000033'}}>Learn More</button>
 				</Link>
 			</div>
 		</div>
@@ -26,7 +27,8 @@ const HomeSlider = () => (
 				<h1 className="txtColor">Reach New Frontiers</h1>
 				<h4> With our Artificial Intelligence capabilities </h4>
 				<Link to={`/services/ai/`} style={{ textDecoration: 'none' }}>
-				   <button style={{color:'black', backgroundColor:'#3399FF'}}>Learn More</button>
+				<button style={{color:'white', fontSize: '16px',
+						backgroundColor:'#000033'}}>Learn More</button>
 				</Link>
 			</div>
 		</div>
@@ -35,7 +37,9 @@ const HomeSlider = () => (
 				<h1 className="txtColor"> Discover New Insights</h1>
 				<h4> With our Data Sciences expertise </h4>
 				<Link to={`/services/bigdata/`} style={{ textDecoration: 'none' }}>
-				   <button style={{color:'black', backgroundColor:'#3399FF'}}>Learn More</button>
+				<button style={{color:'white', fontSize: '16px', backgroundColor:'#000033'}}>
+					Learn More 
+				</button>
 				</Link>
 			</div>
 		</div>
