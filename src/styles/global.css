@@ -12,6 +12,14 @@ body {
   min-height: 100vh;
 }
 
+@font-face {
+  font-family: "Open Sans Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("fonts/open-sans-v17-latin-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
 .siteContainer {
   height: 100vh;
   display: flex;
