@@ -27,8 +27,8 @@ const HomeSlider = () => (
 				<h1 className="txtColor">Reach New Frontiers</h1>
 				<h4> With our Artificial Intelligence capabilities </h4>
 				<Link to={`/services/ai/`} style={{ textDecoration: 'none' }}>
-				<button style={{color:'white', fontSize: '16px',
-						backgroundColor:'#000033'}}>Learn More</button>
+				<button style={{color:'#ffffff', fontSize: '16px',
+						backgroundColor:'#0686E4'}}>Learn More</button>
 				</Link>
 			</div>
 		</div>
@@ -37,9 +37,8 @@ const HomeSlider = () => (
 				<h1 className="txtColor"> Discover New Insights</h1>
 				<h4> With our Data Sciences expertise </h4>
 				<Link to={`/services/bigdata/`} style={{ textDecoration: 'none' }}>
-				<button style={{color:'white', fontSize: '16px', backgroundColor:'#000033'}}>
-					Learn More 
-				</button>
+				<button style={{color:'#ffffff', fontSize: '16px',
+						backgroundColor:'#0686E4'}}>Learn More</button>
 				</Link>
 			</div>
 		</div>
