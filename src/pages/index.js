@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Layout from '../components/layout/layout.js';
 import SEO from '../components/seo'
 import Gallery from '../components/gallery/gallery.js';
-import isoImg from "../images/iso-illustration.jpg";
+import isoImg from "../images/iso-illustration.webp";
 import { graphql } from 'gatsby';
 import HomeCarousel from "../components/carousel/carousel.js";
 
