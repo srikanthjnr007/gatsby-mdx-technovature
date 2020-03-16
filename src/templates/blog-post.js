@@ -32,7 +32,7 @@ class BlogPostTemplate extends React.Component {
             marginTop: '0.5rem',
           }}
         >
-          {post.frontmatter.date}
+         <p> <strong>Posted On:</strong> {post.frontmatter.date}, Author: {post.frontmatter.author} </p>
         </p>
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr
@@ -85,6 +85,7 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 160)
       frontmatter {
         title
+	author
         date(formatString: "MMMM DD, YYYY")
 	    featuredImage {
           childImageSharp {
