@@ -6,6 +6,7 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout/layout.js'
 import SEO from '../components/seo'
+import SocialShare from '../components/socialshare'
 
 import '../styles/global.css'
 
@@ -34,6 +35,7 @@ class BlogPostTemplate extends React.Component {
         >
          <p> <strong>Posted On:</strong> {post.frontmatter.date}, Author: {post.frontmatter.author} </p>
         </p>
+	    <SocialShare />
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
