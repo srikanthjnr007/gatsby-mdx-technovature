@@ -3,10 +3,11 @@ import { Link, graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import Img from "gatsby-image"
 import Helmet from 'react-helmet'
+import get from 'lodash/get'
+import SocialShare from '../components/socialshare'
 
 import Layout from '../components/layout/layout.js'
 import SEO from '../components/seo'
-import SocialShare from '../components/socialshare'
 
 import '../styles/global.css'
 
@@ -15,6 +16,9 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
     const siteTitle = this.props.data.site.siteMetadata.title
+
+    const url = `${get(this.props, "data.site.siteMetadata.siteUrl")}${get(this.props, "pathContext.slug")}`;
+
     const { previous, next } = this.props.pageContext
     console.log(this.props.pageContext)
 
@@ -35,7 +39,8 @@ class BlogPostTemplate extends React.Component {
         >
          <p> <strong>Posted On:</strong> {post.frontmatter.date}, Author: {post.frontmatter.author} </p>
         </p>
-	    <SocialShare />
+	    <SocialShare url={url} />
+
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{

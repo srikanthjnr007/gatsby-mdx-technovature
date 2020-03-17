@@ -17,7 +17,9 @@ import {
 
 import Likes from './likes'
 
-const SocialShare = () => (
+function SocialShare (props) { 
+
+	return(
 <div style={{ display:'flex', 
 		flexDirection: 'row', 
 		maxWidth: '230px',
@@ -26,7 +28,7 @@ const SocialShare = () => (
 
 <a href="#">
 <FacebookShareButton
-            url={window.location.href}
+            url={props.url}
             quote='GitHub'
             className="Demo__some-network__share-button">
             <FacebookIcon
@@ -37,7 +39,7 @@ const SocialShare = () => (
 
 <a href="#">
 <TwitterShareButton
-            url={window.location.href}
+            url={props.url}
             quote='GitHub'
             className="Demo__some-network__share-button">
             <TwitterIcon
@@ -47,7 +49,7 @@ const SocialShare = () => (
 	  </a>
 <a href="#">
 <EmailShareButton
-            url={window.location.href}
+	    url={props.url}
             quote='GitHub'
             className="Demo__some-network__share-button">
             <EmailIcon
@@ -57,7 +59,7 @@ const SocialShare = () => (
 	  </a>
 	  <a href="#">
 <LinkedinShareButton
-            url={window.location.href}
+            url={props.url}
             quote='GitHub'
             className="Demo__some-network__share-button">
             <LinkedinIcon
@@ -70,7 +72,8 @@ const SocialShare = () => (
 	<Likes />
 	</a>
 	  </div>
-)
+	);
+}
 
 
 export default SocialShare
