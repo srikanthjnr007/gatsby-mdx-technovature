@@ -29,7 +29,6 @@ function SocialShare (props) {
 <a href="#">
 <FacebookShareButton
             url={props.url}
-            quote='GitHub'
             className="Demo__some-network__share-button">
             <FacebookIcon
               size={32}
@@ -40,7 +39,6 @@ function SocialShare (props) {
 <a href="#">
 <TwitterShareButton
             url={props.url}
-            quote='GitHub'
             className="Demo__some-network__share-button">
             <TwitterIcon
               size={32}
@@ -50,7 +48,6 @@ function SocialShare (props) {
 <a href="#">
 <EmailShareButton
 	    url={props.url}
-            quote='GitHub'
             className="Demo__some-network__share-button">
             <EmailIcon
               size={32}
@@ -60,7 +57,6 @@ function SocialShare (props) {
 	  <a href="#">
 <LinkedinShareButton
             url={props.url}
-            quote='GitHub'
             className="Demo__some-network__share-button">
             <LinkedinIcon
               size={32}
