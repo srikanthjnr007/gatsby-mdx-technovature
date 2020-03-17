@@ -3,7 +3,6 @@ import { Link, graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import Img from "gatsby-image"
 import Helmet from 'react-helmet'
-import get from 'lodash/get'
 import SocialShare from '../components/socialshare'
 
 import Layout from '../components/layout/layout.js'
@@ -13,14 +12,16 @@ import '../styles/global.css'
 
 
 class BlogPostTemplate extends React.Component {
+
   render() {
     const post = this.props.data.mdx
     const siteTitle = this.props.data.site.siteMetadata.title
-
-    const url = `${get(this.props, "data.site.siteMetadata.siteUrl")}${get(this.props, "pathContext.slug")}`;
+    const siteUrl = this.props.data.site.siteMetadata.siteUrl
+    const myslug = this.props.data.mdx.fields.slug
 
     const { previous, next } = this.props.pageContext
     console.log(this.props.pageContext)
+    const myurl = `${siteUrl}/${myslug}`
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -39,7 +40,7 @@ class BlogPostTemplate extends React.Component {
         >
          <p> <strong>Posted On:</strong> {post.frontmatter.date}, Author: {post.frontmatter.author} </p>
         </p>
-	    <SocialShare url={url} />
+	    <SocialShare url={myurl} />
 
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr
@@ -85,11 +86,15 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+	siteUrl
       }
     }
     mdx(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
+      fields {
+         slug
+      }
       frontmatter {
         title
 	author
