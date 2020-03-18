@@ -1,5 +1,9 @@
 import 'purecss/build/pure.css';
 import React from 'react';
+import {
+  GoogleReCaptchaProvider,
+  GoogleReCaptcha
+} from 'react-google-recaptcha-v3';
 
 import '../../styles/global.css';
 
@@ -15,6 +19,7 @@ class ContactForm extends React.Component {
 		<h4> Please fill in your details. We will get back to you soon. </h4>
 <form class="pure-form pure-form-aligned" action="https://getform.io/f/babe76a4-d41a-4f37-9f99-2df423ddf1cf" method="POST">
     <fieldset>
+		<div class="g-recaptcha" data-sitekey="6LeU9eEUAAAAAEpMGssa2t4XAYUdq2Nwgs2q5_H-"></div>
         <div class="pure-control-group pure-u-3-4">
             <label for="firstname">First Name</label>
             <input id="firstname" type="text" name="firstname" placeholder="First Name" required/>
@@ -41,6 +46,7 @@ class ContactForm extends React.Component {
         </div>
 
         <div class="pure-controls">
+	  <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
             <button type="submit" class="pure-button pure-button-primary">Submit</button>
         </div>
     </fieldset>
