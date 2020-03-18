@@ -1,9 +1,5 @@
 import 'purecss/build/pure.css';
 import React from 'react';
-import {
-  GoogleReCaptchaProvider,
-  GoogleReCaptcha
-} from 'react-google-recaptcha-v3';
 
 import '../../styles/global.css';
 
