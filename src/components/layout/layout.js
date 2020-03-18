@@ -16,9 +16,7 @@ const Layout = ({ data, children }) => (
 	<link rel="icon" href={favicon} />
 	<link rel='stylesheet' type='text/css' href='../../styles/global.css' />
 	<meta name="google-site-verification" content="P-r4DOT7vDNC2sXEVJPvou2arByWWUlIQ4aAi8BhCI0" />
-	<script src="https://www.google.com/recaptcha/api.js?render=6LeU9eEUAAAAAEpMGssa2t4XAYUdq2Nwgs2q5_H-"></script>
-<script>
-	</script>
+	 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   </Helmet>
 
@@ -31,16 +29,6 @@ const Layout = ({ data, children }) => (
         <footer>
           © {new Date().getFullYear()}, Technovature Software Solutions Pvt. Ltd. 
         </footer>
-	<script
-          dangerouslySetInnerHTML={{ __html:
-            ` grecaptcha.ready(function() {
-                grecaptcha.execute("6LeU9eEUAAAAAEpMGssa2t4XAYUdq2Nwgs2q5_H-", {action: 'homepage'})
-                .then(function(token) {
-		   document.getElementById('captchaResponse').value = token;
-                });
-            });`
-          }}
-        />
 	</div>
 	</>
 );
