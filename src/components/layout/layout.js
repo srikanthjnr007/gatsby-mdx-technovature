@@ -17,7 +17,6 @@ const Layout = ({ data, children }) => (
 	<link rel='stylesheet' type='text/css' href='../../styles/global.css' />
 	<meta name="google-site-verification" content="P-r4DOT7vDNC2sXEVJPvou2arByWWUlIQ4aAi8BhCI0" />
 	 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
   </Helmet>
 
     <Head />
