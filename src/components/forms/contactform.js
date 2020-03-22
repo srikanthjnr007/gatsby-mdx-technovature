@@ -13,7 +13,7 @@ class ContactForm extends React.Component {
 
 		<h1> Contact Us </h1>
 		<h4> Please fill in your details. We will get back to you soon. </h4>
-<form class="pure-form pure-form-aligned" action="https://submit-form.com/p-wOBkDO1vmBmesAA9JGK" method="POST">
+<form class="pure-form pure-form-aligned" action="https://getform.io/f/cf9d7122-7932-4cec-a61a-b9393fac652b" method="POST">
     <fieldset>
         <div class="pure-control-group pure-u-3-4">
             <label for="firstname">First Name</label>
@@ -41,7 +41,7 @@ class ContactForm extends React.Component {
         </div>
 
         <div class="pure-controls">
-		<div class="g-recaptcha" data-sitekey="6Ld4G-IUAAAAALpSlpgwDt3tC-_5n1i4M1JjmjjE"></div>
+		<div class="g-recaptcha" data-sitekey="6LeU9eEUAAAAAEpMGssa2t4XAYUdq2Nwgs2q5_H-"></div>
             <button type="submit" class="pure-button pure-button-primary">Submit</button>
         </div>
     </fieldset>
