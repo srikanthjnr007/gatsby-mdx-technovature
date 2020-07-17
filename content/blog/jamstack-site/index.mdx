@@ -1,7 +1,7 @@
 ---
 # This is the frontmatter which goes at the top of the MDX file
 # Hashes in the frontmatter are comments
-title: Building a JamStack Website 
+title: Modern JamStack Websites 
 author: Srikanth Jallapuram
 date: 2020-07-11
 featuredImage: ./modernweb.png
@@ -12,9 +12,7 @@ import styles from '../../styles/another.module.css'
 <br/>
 <br/>
 
-
 # New to JAMstack? Everything You Need to Know to Get Started
-
 
 When we first wrote this post about JAMStack, the [JAMstack](https://jamstack.org/) ecosystem was still in its infancy.
 
@@ -28,9 +26,9 @@ We will cover:
 
 1. [What the JAMstack is](#intro)
 2. [How to get started with it](#getstarted)
-3. [How to sell the JAMstack to clients](#clients)
+3. [How do JamStack + PWA sites standout](#tech-differentiator)
 4. [What are the best resources to stay up-to-date](#list)
-5. [What the Snipcart team is expecting from the JAMstack in 2020](#conclusion)
+5. [What the Technovature team is expecting from the JAMstack in 2020](#conclusion)
 
 
 
@@ -78,17 +76,17 @@ But it did not come to life with just the snap of a finger. Like I said at the b
 
 Let us take a quick journey back in time with a year-by-year view of the rise of the JAMstack. It should clarify where its at right now and where it is going.
 
-â†' **2015**: Static sites are slowly making a comeback from the ruins of the web's early years. The first CMS-deniers are making them cool again.
+&#10154; **2015**: Static sites are slowly making a comeback from the ruins of the web's early years. The first CMS-deniers are making them cool again.
 
-â†' **2016**: As you would expect, backlash occurs. Static sites aren't cool at allâ€"they lack too many features to build anything other than blogs. In the meantime though, a small group of developers is coining the JAMstack and slowly promoting its principles in modern dev circles.
+&#10154; **2016**: As you would expect, backlash occurs. Static sites aren't cool at allâ€"they lack too many features to build anything other than blogs. In the meantime though, a small group of developers is coining the JAMstack and slowly promoting its principles in modern dev circles.
 
-â†' **2017**: The year JAMstack really comes to life, for a somewhat niche community. Static sites aren't static anymore. This modern web revolution gives you all the features you need to build â€œhyper-dynamic sites & apps. Sequoia Capital, Mailchimp & Red Bull are a few of the first big enterprises to build JAMstack projects.
+&#10154; **2017**: The year JAMstack really comes to life, for a somewhat niche community. Static sites aren't static anymore. This modern web revolution gives you all the features you need to build â€œhyper-dynamic sites & apps. Sequoia Capital, Mailchimp & Red Bull are a few of the first big enterprises to build JAMstack projects.
 
-â†' **2018**: Here is a phrase we start to hear a lot: â€œJust discovered the JAMstack and, oh my God, it's amazing? Yup, the paradigm makes a mainstream breakthrough with more & more people talking about it. Substantial funding is announced for tools like Gatsby, Netlify, Contentful, etc. The first [JAMstack_conf](https://jamstackconf.com/) takes place.
+&#10154; **2018**: Here is a phrase we start to hear a lot: â€œJust discovered the JAMstack and, oh my God, it's amazing? Yup, the paradigm makes a mainstream breakthrough with more & more people talking about it. Substantial funding is announced for tools like Gatsby, Netlify, Contentful, etc. The first [JAMstack_conf](https://jamstackconf.com/) takes place.
 
-â†' **2019**: The year of maturity & accessibility. The JAMstack isn't a niche community anymore. Most frontend developers hear about it and many start looking into it. With the likes of [Stackbit](https://www.stackbit.com/), the JAMstack opens its doors to [less technical users](https://snipcart.com/blog/manage-jamstack-websites-stackbit). The rise of [serverless functions](https://snipcart.com/blog/why-serverless-example) is also huge for bringing more backend functionalities to frontend-centric projects.
+&#10154; **2019**: The year of maturity & accessibility. The JAMstack isn't a niche community anymore. Most frontend developers hear about it and many start looking into it. With the likes of [Stackbit](https://www.stackbit.com/), the JAMstack opens its doors to [less technical users](https://snipcart.com/blog/manage-jamstack-websites-stackbit). The rise of [serverless functions](https://snipcart.com/blog/why-serverless-example) is also huge for bringing more backend functionalities to frontend-centric projects.
 
-â†' **2020:** With a new decade on the horizon, there is nothing indicating a decline in the JAMstack's adoption. If services and APIs in the ecosystem continue to prove viable and profitable, we will see more important players embracing the idea, increasing adoption even more. The New Dynamic brought legit concerns about having **too much** options in the ecosystem in its [first newsletter of the year](https://www.thenewdynamic.org/article/2020-11-01-jamstack-update/). Food for thought, no doubt. Otherwise, Iâ€™d say the future looks bright for JAMstackers! More insights for 2020 coming in the last section of this post.
+&#10154; **2020:** With a new decade on the horizon, there is nothing indicating a decline in the JAMstack's adoption. If services and APIs in the ecosystem continue to prove viable and profitable, we will see more important players embracing the idea, increasing adoption even more. The New Dynamic brought legit concerns about having **too much** options in the ecosystem in its [first newsletter of the year](https://www.thenewdynamic.org/article/2020-11-01-jamstack-update/). Food for thought, no doubt. Otherwise, it would be safe to say the future looks bright for JAMstackers! More insights for 2020 coming in the last section of this post.
 
 We can claim with confidence that there is a serious revolution happening in the web development universe. The traditional approach that has ruled for more than a decade isnâ€™t the only player in the game anymore.
 
@@ -104,17 +102,17 @@ This graphic is a very stripped-down view of what is actually going on under the
 
 **Traditional workflow**
 
-â†' Building and hosting are coupled. <br/>
-â†' A user requests a page. The file gets processed and served following a (long) series of interaction between a database, backend code, server, browser, and layers of caching. <br/>
-â†' Core updates are pushed to production servers, often through FTP. Database must be maintained or updated. <br/>
-â†' Content updates are pushed through traditional CMS, like WordPress or Drupal.
+&#10154; Building and hosting are coupled. <br/>
+&#10154; A user requests a page. The file gets processed and served following a (long) series of interaction between a database, backend code, server, browser, and layers of caching. <br/>
+&#10154; Core updates are pushed to production servers, often through FTP. Database must be maintained or updated. <br/>
+&#10154; Content updates are pushed through traditional CMS, like WordPress or Drupal.
 
 **JAMstack workflow**
 
-â†' Building and hosting are _decoupled_. <br/>
-â†' A user requests a page. The file is already compiled and gets directly served to the browser from a CDN. <br/>
-â†' Core updates are pushed through Git; the site gets re-built entirely via modern build tools like static site generators. <br/>
-â†' Content updates are pushed through Git or a static site CMS.
+&#10154; Building and hosting are _decoupled_. <br/>
+&#10154; A user requests a page. The file is already compiled and gets directly served to the browser from a CDN. <br/>
+&#10154; Core updates are pushed through Git; the site gets re-built entirely via modern build tools like static site generators. <br/>
+&#10154; Content updates are pushed through Git or a static site CMS.
 
 ### 1.4 Benefits for developers
 
@@ -127,19 +125,19 @@ How so?
 * The lesser complexity of development **reduces costs.**
 * The reduction of bloat & maintenance + refreshing flexibility in workflows **diminishes depression and alcoholism among developers.*
 
-Jokes aside, thereâ€™s plenty of value in the JAMstack approach, for developers and clients alike. Iâ€™ll emphasize the client part later on. First, developers need to know how to get started.
+As we can see there is a plenty of value in the JAMstack approach, for developers and clients alike. 
 
 ## 2. Getting started with the JAMstack
 
 If you are new to this whole idea of the JAMstack, you might be a little overwhelmed at this point. Knowing where to start is sometimes the hardest part.
 
-First, remember that weâ€™re talking about frontend-centric development here. If youâ€™re new to web development in general, youâ€™ll want to make sure to sharpen your [JavaScript skills](https://snipcart.com/blog/javascript-beginner-intro-exercises). Then learning as much as you can [about APIs](https://snipcart.com/blog/apis-integration-usage-benefits) will allow you to push your projects to the next level.
+First, remember that we are talking about frontend-centric development here. If you are new to web development in general, you will want to make sure to sharpen your [JavaScript skills](https://snipcart.com/blog/javascript-beginner-intro-exercises). Then learning as much as you can [about APIs](https://snipcart.com/blog/apis-integration-usage-benefits) will allow you to push your projects to the next level.
 
-Once you've got this covered, well, the skyâ€™s the limit as they sayâ€"as long as you can find the tools to match your ambitions.
+Once you've got this covered, well, the sky's the limit as they say as long as you can find the tools to match your ambitions.
 
 ### 2.1 New projects
 
-Starting from scratch is the best way to build a pure JAMstack. This way you can really choose all the necessary pieces to create what you want. As I explained earlier, building and hosting are decoupled. The first thing youâ€™ll want to decide is **what to use to build your site/app**.
+Starting from scratch is the best way to build a pure JAMstack. This way you can really choose all the necessary pieces to create what you want. As I explained earlier, building and hosting are decoupled. The first thing you'll want to decide is **what to use to build your site/app**.
 
 The modern frontend ecosystem may make your life hard here. Not because of a lack of relevant tools. Actually, its just the opposite! There are hundreds of possibilities, even if some clearly stand out.
 
@@ -161,9 +159,9 @@ Simply put, an SSG takes your site content, applies it to templates, and generat
 
 These popular JS frameworks I was just mentioning gave birth to some of the most powerful static site generators out thereâ€"Gatsby & Next.js for React, Nuxt & Gridsome for Vue. These are the ones that are currently bringing SSGs to whole new territories.
 
-> There are many others obviously, and they all have their appropriate use cases. Weâ€™ve made [this resource](https://snipcart.com/blog/choose-best-static-site-generator) to help developers find the right one for their needs.
+> There are many others obviously, and they all have their appropriate use cases. We have made [this resource](https://snipcart.com/blog/choose-best-static-site-generator) to help developers find the right one for their needs.
 
-What weâ€™re seeing right now is less of them being created and the top players getting more mature. Gatsby, for instance, has grown considerably in the last few months and is still going strong. Is 2020 the year where weâ€™ll see [incremental builds](https://www.gatsbyjs.org/blog/2019-06-12-performance-improvements-for-large-sites/#first-step-towards-incremental-builds) being supported? We sure hope so.
+What we are seeing right now is less of them being created and the top players getting more mature. Gatsby, for instance, has grown considerably in the last few months and is still going strong. Is 2020 the year where weâ€™ll see [incremental builds](https://www.gatsbyjs.org/blog/2019-06-12-performance-improvements-for-large-sites/#first-step-towards-incremental-builds) being supported? We sure hope so.
 
 Good news for Angular developers: the [first static site generator powered by Angular](https://snipcart.com/blog/angular-static-site-generator-scully) is finally here! [Scully](https://github.com/scullyio/scully) will certainly be a tool to monitor in the upcoming months. It means that all the major frontend frameworks now have their JAMstack tooling, leaving even more freedom for developers to work with the tools they love.
 
@@ -185,13 +183,13 @@ Once you have built your site/app, it needs to live somewhere. Most developers t
 
 **So here is a few use case examples of what your new stack could look like:**
 
-â†' _If youâ€™re only creating a small blog for yourself_, why not use [Hugo to generate](https://snipcart.com/blog/hugo-tutorial-static-site-ecommerce) the site, deploy it on Netlify, and use Netlify forms/[Staticman for comments](https://snipcart.com/blog/staticman-dynamic-content-static-website). For content management and editing purposes, plugging a headless CMS (e.g. [Ghost as a headless CMS](https://snipcart.com/blog/ghost-demo)) will make the life of less technical users easier. For blogs, there's definitely no shortage of cool options!
+&#10154; _If youâ€™re only creating a small blog for yourself_, why not use [Hugo to generate](https://snipcart.com/blog/hugo-tutorial-static-site-ecommerce) the site, deploy it on Netlify, and use Netlify forms/[Staticman for comments](https://snipcart.com/blog/staticman-dynamic-content-static-website). For content management and editing purposes, plugging a headless CMS (e.g. [Ghost as a headless CMS](https://snipcart.com/blog/ghost-demo)) will make the life of less technical users easier. For blogs, there's definitely no shortage of cool options!
 
-â†' _If youâ€™re building an enterprise, highly dynamic app with SEO needs_, why not use [Next/Nuxt.js for statically rendered apps](https://snipcart.com/blog/react-seo-nextjs-tutorial) in the front, with [Contentful](https://www.contentful.com/blog/2016/02/10/snipcart-middleman-contentful/) as a CMS pushing your content to various platforms (PWA, desktop, web-app, etc.).
+&#10154; _If youâ€™re building an enterprise, highly dynamic app with SEO needs_, why not use [Next/Nuxt.js for statically rendered apps](https://snipcart.com/blog/react-seo-nextjs-tutorial) in the front, with [Contentful](https://www.contentful.com/blog/2016/02/10/snipcart-middleman-contentful/) as a CMS pushing your content to various platforms (PWA, desktop, web-app, etc.).
 
-â†' _If youâ€™re building an online shop for a client_, why not prioritize performance with statically generated files ([with,](https://snipcart.com/blog/jekyll-ecommerce-tutorial) say, Eleventy!), add a lean content management system with, say, DatoCMS or Forestry, and plug in a simple yet customizable e-commerce solution like Snipcart [Shopping Cart](https://snipcart.com/jamstack-ecommerce).
+&#10154; _If youâ€™re building an online shop for a client_, why not prioritize performance with statically generated files ([with,](https://snipcart.com/blog/jekyll-ecommerce-tutorial) say, Eleventy!), add a lean content management system with, say, DatoCMS or Forestry, and plug in a simple yet customizable e-commerce solution like Snipcart [Shopping Cart](https://snipcart.com/jamstack-ecommerce).
 
-â†' _If you are crafting documentation to support a new project_, why not go [the same way we did](https://snipcart.com/blog/generate-documentation-javascript) crafting auto-generated docs thanks to the excellent mix of Nuxt & Sanity. We truly fell in love with these tools and are looking forward to leveraging them again in the future (the next version of our marketing website, maybe?).
+&#10154; _If you are crafting documentation to support a new project_, why not go [the same way we did](https://snipcart.com/blog/generate-documentation-javascript) crafting auto-generated docs thanks to the excellent mix of Nuxt & Sanity. We truly fell in love with these tools and are looking forward to leveraging them again in the future (the next version of our marketing website, maybe?).
 
 This whole process provides great flexibility and a renewed sense of fun for seasoned developers. Got to admit though, itâ€™s quite hard to sell to newbies. Ease of adoption is something the JAMstack community has been striving to achieve for a long time now.
 
@@ -227,21 +225,20 @@ JAMstack sites being built today are more hyper-dynamic than _static_. [The curr
 
 And the list goes [on](https://www.thenewdynamic.org/tools/) and [on](https://github.com/agarrharr/awesome-static-website-services).
 
-## 3. Making clients feel the JAM
+## 3. What Makes the Clients feel the JAM
 
 ![feel-the-jam](The%20JAMstack%20in%202020%20Why%20(and%20How)%20to%20Get%20Started%20-%20Snipcart_files/giphy-downsized.gif)
 
-Developers arenâ€™t alone in this new paradigm: **clients** are still at the center of most projects. Of course, youâ€™ll get eager head nods from developers when you mention how the JAMstack erases the need for complex dynamic caching. Clients though? Thatâ€™s not how youâ€™ll get them excited.
+Developers aren't alone in this new paradigm: **clients** are still at the center of most projects. Of course, youâ€™ll get eager head nods from developers when you mention how the JAMstack erases the need for complex dynamic caching. But how do we convey the value of this Tech Stack to the clients?
 
-Because it is just not their lingo.
 
 _So how can you make clients understand the benefits of switching to a JAMstack setup?_
 
 ### 3.1 Turning technical features into business benefits
 
-The short answer is to speak your clientâ€™s lingo. To _vulgarize_ and _show_. I for one like to break down technical features and turn them into tangible business benefits.
+Break down technical features and turn them into tangible business benefits.
 
-Letâ€™s take the removal of database queries, and the CDN-based content serving for instance. We can boil this down to **performance**. How can that have _meaning_ for a client?
+Let's take the removal of database queries, and the CDN-based content serving for instance. We can boil this down to **performance**. How can that have _meaning_ for a client?
 
 Well first, you could pop up a site speed test app like [Pingdom](https://tools.pingdom.com/) or [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) and bring up two very similar sites (or the same one)â€"one static, one dynamic. You'd make sure the client _sees_ the difference in results. You can then explain to the client how crucial page load time has become for on-site engagement [and SEO](https://www.semrush.com/blog/why-does-page-speed-impact-your-seo/). Simple association follows:
 
@@ -263,7 +260,7 @@ The JAMstack isn't bulletproof yet. While discussing a switch to it, more tech-s
 
 **2) Static CMS are cool and all, but I also need to manage user permissions & editor roles.** Remember the parts about headless & decoupled traditional CMS? Well, there was your answer to these concerns.
 
-I know this isn't as sexy as a full suite of shiny new tools. And yes, it defeats parts of the purpose to adopt a full JAMstack. But it might just do the trick for your administrative needs! It could also significantly alleviate migration costs if all the content already exists in a traditional CMS.
+I know this isn't as cheesy as a full suite of shiny new tools. And yes, it defeats parts of the purpose to adopt a full JAMstack. But it might just do the trick for your administrative needs! It could also significantly alleviate migration costs if all the content already exists in a traditional CMS.
 
 Plus, with the extensive offer in headless CMSs and serverless functions, thereâ€™s practically no backend functionalities that are off-limits anymore.
 
