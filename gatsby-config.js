@@ -89,7 +89,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-emotion`,
-    `gatsby-plugin-sitemap`,
+`gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -154,6 +154,14 @@ module.exports = {
           },
         ],
       },
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.technovature.com',
+        sitemap: 'https://www.technovature.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,
