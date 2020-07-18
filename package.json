@@ -27,6 +27,7 @@
     "gatsby-plugin-mdx": "^1.0.33",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-preact": "^4.0.9",
+    "gatsby-plugin-purgecss": "^5.0.0",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-robots-txt": "^1.5.1",
     "gatsby-plugin-sass": "^2.1.29",
