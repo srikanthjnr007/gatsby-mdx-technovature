@@ -23,6 +23,13 @@
     "image": "../images/gallery/cloud.jpg"
   },
   {
+    "title": "Data Warehousing",
+    "copy": "Intelligent Analytics via EDW ",
+    "path": "edw",
+    "description": "Big Data Warehousing",
+    "image": "../images/gallery/bigdata.jpg"
+  },
+  {
     "title": "Internet of Things",
     "copy": "Internet powered Intelligence on every device.",
     "path": "iot",
